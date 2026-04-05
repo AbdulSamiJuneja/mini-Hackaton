@@ -1,12 +1,12 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-header .navbar-nav li{
-    font-size:16px;
-    color:black;
+header .navbar-nav li {
+    font-size: 16px;
+    color: black;
     font-weight: 500;
 }
 
@@ -29,55 +29,51 @@ header .navbar-nav li{
     border-radius: 20px;
 }
 
-.color-change{
-    color:#4d3bdb;
+.color-change {
+    color: #4d3bdb;
 }
 
 /* hero section */
 
-.upper-sy-gap{
-    margin-top:100px;
+.upper-sy-gap {
+    margin-top: 100px;
 }
 
-.hero-section h1{
-    display:flex;
+.hero-section h1 {
+    display: flex;
     justify-content: center;
     font-size: 3rem;
-    font-size:700;
+    font-size: 700;
 }
 
 /* profile card section */
 
 .profile-card {
-    margin-top:100px;
+    margin-top: 100px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
     background-color: #fff;
-  }
-  .profile-img {
+}
+
+.profile-img {
     width: 250px;
     height: 250px;
     object-fit: contain;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    margin-right:10px;
-  }
-
-  .profile-card-content{
-    padding:20px 0px;
-
-  }
-
-  /*  team section */
-
-.team-section{
-    margin-top:100px;
-}
-:root {
- 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
 }
 
+.profile-card-content {
+    padding: 20px 0px;
 
+}
+
+/*  team section */
+
+.team-section {
+    margin-top: 100px;
+}
 
 .main-heading {
     font-weight: 700;
@@ -131,6 +127,7 @@ header .navbar-nav li{
     color: #4d3bdb;
     opacity: 0.5;
 }
+
 .member-name {
     font-weight: 700;
     font-size: 1.1rem;
@@ -140,7 +137,8 @@ header .navbar-nav li{
 .member-role {
     font-size: 0.9rem;
     font-weight: 500;
-    color: #6c756d;;
+    color: #6c756d;
+    ;
 }
 
 
@@ -148,231 +146,258 @@ header .navbar-nav li{
 /* hiring mine gallery section  */
 
 
-.hiring-mine-gallery h2{
-    font-size:3rem;
-    font-weight: 500;
-    display:flex;
-    justify-content:center;
+
+.hiring-mine-gallery h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    gap:10px;   
+    margin-bottom: 40px;
+    font-family: sans-serif;
 }
 
 .gallery-of-pictures {
-    margin: 0px auto;
     display: grid;
-    grid-template: repeat(14, 1fr) /repeat(12, 1fr);
+    grid-template-rows: repeat(14, 50px);
+    grid-template-columns: repeat(12, 1fr);
     gap: 15px;
-    padding: 10px;
-    overflow: hidden;
-    margin-bottom:150px;
+    max-width: 1200px;
+    margin: 0 auto 150px auto;
 }
 
-
 .pic-box {
-    height: 200px;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-    display: flex;
-    justify-items: center;
     border-radius: 10px;
-    transition: all 1s;
-    transform: scale(1);
+    transition: transform 0.5s ease;
+    background-size: cover;
+    background-position: center;
 }
 
 .pic-box:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    z-index: 2;
 }
 
 
 .img-box1 {
-    grid-area: 4/1/8/4;
-    background: url("./Accets/hiringmine-img1.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 4 / 1 / 8 / 5;
+    background-image: url("./Accets/hiringmine-img1.jpg");
 }
 
 .img-box2 {
-    grid-area: 2/4/6/7;
-    background: url("./Accets/hiringmine-img2.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 3 / 5 / 6 / 8;
+    background-image: url("./Accets/hiringmine-img2.jpg");
 }
 
 .img-box3 {
-    grid-area: 1/7/5/11;
-    background: url("./Accets/hiringmine-img3.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 2 / 8 / 5 / 12;
+    background-image: url("./Accets/hiringmine-img3.jpg");
 }
 
 .img-box4 {
-    grid-area: 8/1/11/4;
-    background: url("./Accets/hiringmine-img4.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 8 / 1 / 11 / 5;
+    background-image: url("./Accets/hiringmine-img4.jpg");
 }
 
 .img-box5 {
-    grid-area: 6/4/12/9;
-    background: url("./Accets/hiringmine-img5.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 6 / 5 / 11 / 10;
+    background-image: url("./Accets/hiringmine-img5.jpg");
 }
 
 .img-box6 {
-    grid-area: 5/9/7/12;
-    background: url("./Accets/hiringmine-img6.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 5 / 10 / 7 / 13;
+    background-image: url("./Accets/hiringmine-img6.jpg");
 }
 
 .img-box7 {
-    grid-area: 11/2/16/5;
-    background: url("./Accets/hiringmine-img7.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 11 / 3 / 15 / 7;
+    background-image: url("./Accets/hiringmine-img7.jpg");
 }
 
 .img-box8 {
-    grid-area: 7/9/13/12;
-    background: url("./Accets/hiringmine-img8.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 7 / 10 / 12 / 13;
+    background-image: url("./Accets/hiringmine-img8.jpg");
 }
 
 .img-box9 {
-    grid-area: 12/5/16/8;
-    background: url("./Accets/hiringmine-img9.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-area: 11 / 7 / 15 / 10;
+    background-image: url("./Accets/hiringmine-img9.jpg");
 }
-
 
 /* footer */
 
-
 footer {
-    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    background: linear-gradient(180deg, #6851ff 0%, #9747ff 100%);
     width: 100%;
-    padding: 80px 0px 50px;
+    color: white;
+    padding-top: 80px;
 }
 
 .footer-first-sec {
-    padding: 0px 80px 30px;
     display: flex;
     justify-content: space-between;
-    border-bottom:2px solid #e5e7eb;
+    padding-bottom: 40px;
+}
+
+.container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .about-hirine-mine {
-    width: 350px;
+    max-width: 400px;
     display: flex;
-    justify-content: center;
-    align-items: left;
-    gap: 10px;
     flex-direction: column;
+    gap: 15px;
 }
 
 .footer-logo img {
-    width: 130px;
+    width: 180px;
 }
 
 .footer-first-sec p {
-    color: #e5e7eb;
-    font-weight: 550;
+    color: #f3f4f6;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
 }
 
 .footer-first-sec h2 {
-    color: #e5e7eb;
-    font-size:18px;
-    margin:20px 0px 10px;
-    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
-.social-media-accounts{
-    display:flex;
-    gap:30px;
-    font-size:28px;
-    color:#e5e7eb;
+.social-media-accounts {
+    display: flex;
+    gap: 25px;
+    font-size: 22px;
 }
 
 .contect-us {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    margin-top: 10px;
+    gap: 15px;
+    min-width: 250px;
 }
 
-.contect-us h2{
-    font-size:16px;
-    color:white;
+.footer-second-sec {
+    background: transparent;
+    padding: 20px 0;
 }
 
-.contect-us p{
-    font-size:14px;
-}
-/* footer section two starts  */
-
-.footer-second-sec{
-    display:flex;
-    padding:15px 0px;
-    align-items:center;
-    flex-direction: column;
-    height:30px;
+.footer-second-sec .container {
+    border-bottom: none;
 }
 
-.privacy-term{
-    display:flex;
-    gap:10px;
-    color:white;
+.privacy-term p,
+.copy-right p {
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
-.copy-right{
-    color:white;
-}
-
-.copy-right a {
-    color:white;
-    text-decoration:none;
-}
-
-.copy-right a:hover{
-    text-decoration: underline;
-}
-
-.message-box{
-    position:fixed;
-    bottom:15px;
-    right:30px;
-    height:60px;
-    width:60px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.message-box {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #6851ff;
-    border-radius:50%;
-    font-size:22px;
-    color:white;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
 }
-
 
 /* responsize styling & media query */
 
-@media (min-width: 576px) {  .profile-container {
-    width: 120px;
-    /* Smaller circles on mobile */
-    height: 120px;
+
+@media (max-width: 992px) {
+    .hero-section h1 {
+        font-size: 2.2rem; 
+    }
+
+    .footer-first-sec {
+        flex-direction: column; 
+        gap: 40px;
+    }
+
+    .about-hirine-mine {
+        max-width: 100%; 
+    }
 }
 
-.member-name {
-    font-size: 1rem;
-}}
-
-@media (min-width: 768px) {  }
-
-@media (min-width: 992px) {
-    .main-heading {
-        font-size: 2.2rem;
+@media (max-width: 768px) {
+    .upper-sy-gap {
+        margin-top: 50px;
     }
-  }
 
-@media (min-width: 1200px) {  }
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
 
-@media (min-width: 1400px) {  }
+    .profile-card {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-card-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .gallery-of-pictures {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: auto; 
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+    .pic-box {
+        grid-area: auto !important; 
+        height: 180px; 
+    }
+
+    .hiring-mine-gallery h2 {
+        font-size: 1.8rem;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+        padding: 20px 0;
+    }
+    
+    .day-night-mode {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-of-pictures {
+        grid-template-columns: 1fr; /
+    }
+
+    .main-heading {
+        font-size: 1.8rem;
+    }
+
+    .message-box {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
