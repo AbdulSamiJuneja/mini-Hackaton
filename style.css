@@ -1,0 +1,378 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+header .navbar-nav li{
+    font-size:16px;
+    color:black;
+    font-weight: 500;
+}
+
+.day-night-mode {
+    margin-left: 30px;
+    background-color: #aab4be;
+    height: 18px;
+    width: 45px;
+    border-radius: 20px;
+}
+
+.day-night-mode i {
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #001e3c;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 20px;
+}
+
+.color-change{
+    color:#4d3bdb;
+}
+
+/* hero section */
+
+.upper-sy-gap{
+    margin-top:100px;
+}
+
+.hero-section h1{
+    display:flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-size:700;
+}
+
+/* profile card section */
+
+.profile-card {
+    margin-top:100px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    background-color: #fff;
+  }
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-right:10px;
+  }
+
+  .profile-card-content{
+    padding:20px 0px;
+
+  }
+
+  /*  team section */
+
+.team-section{
+    margin-top:100px;
+}
+:root {
+ 
+}
+
+
+
+.main-heading {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.main-heading .highlight {
+    color: #4d3bdb;
+}
+
+/* Team Card Container */
+.team-card {
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #e5e0fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-placeholder .initials {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4d3bdb;
+    opacity: 0.5;
+}
+.member-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.member-role {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6c756d;;
+}
+
+
+
+/* hiring mine gallery section  */
+
+
+.hiring-mine-gallery h2{
+    font-size:3rem;
+    font-weight: 500;
+    display:flex;
+    justify-content:center;
+}
+
+.gallery-of-pictures {
+    margin: 0px auto;
+    display: grid;
+    grid-template: repeat(14, 1fr) /repeat(12, 1fr);
+    gap: 15px;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom:150px;
+}
+
+
+.pic-box {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    border-radius: 10px;
+    transition: all 1s;
+    transform: scale(1);
+}
+
+.pic-box:hover {
+    transform: scale(1.1);
+}
+
+
+.img-box1 {
+    grid-area: 4/1/8/4;
+    background: url("./Accets/hiringmine-img1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box2 {
+    grid-area: 2/4/6/7;
+    background: url("./Accets/hiringmine-img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box3 {
+    grid-area: 1/7/5/11;
+    background: url("./Accets/hiringmine-img3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box4 {
+    grid-area: 8/1/11/4;
+    background: url("./Accets/hiringmine-img4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box5 {
+    grid-area: 6/4/12/9;
+    background: url("./Accets/hiringmine-img5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box6 {
+    grid-area: 5/9/7/12;
+    background: url("./Accets/hiringmine-img6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box7 {
+    grid-area: 11/2/16/5;
+    background: url("./Accets/hiringmine-img7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box8 {
+    grid-area: 7/9/13/12;
+    background: url("./Accets/hiringmine-img8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box9 {
+    grid-area: 12/5/16/8;
+    background: url("./Accets/hiringmine-img9.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* footer */
+
+
+footer {
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    width: 100%;
+    padding: 80px 0px 50px;
+}
+
+.footer-first-sec {
+    padding: 0px 80px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid #e5e7eb;
+}
+
+.about-hirine-mine {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.footer-logo img {
+    width: 130px;
+}
+
+.footer-first-sec p {
+    color: #e5e7eb;
+    font-weight: 550;
+}
+
+.footer-first-sec h2 {
+    color: #e5e7eb;
+    font-size:18px;
+    margin:20px 0px 10px;
+    color:white;
+}
+
+.social-media-accounts{
+    display:flex;
+    gap:30px;
+    font-size:28px;
+    color:#e5e7eb;
+}
+
+.contect-us {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.contect-us h2{
+    font-size:16px;
+    color:white;
+}
+
+.contect-us p{
+    font-size:14px;
+}
+/* footer section two starts  */
+
+.footer-second-sec{
+    display:flex;
+    padding:15px 0px;
+    align-items:center;
+    flex-direction: column;
+    height:30px;
+}
+
+.privacy-term{
+    display:flex;
+    gap:10px;
+    color:white;
+}
+
+.copy-right{
+    color:white;
+}
+
+.copy-right a {
+    color:white;
+    text-decoration:none;
+}
+
+.copy-right a:hover{
+    text-decoration: underline;
+}
+
+.message-box{
+    position:fixed;
+    bottom:15px;
+    right:30px;
+    height:60px;
+    width:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #6851ff;
+    border-radius:50%;
+    font-size:22px;
+    color:white;
+}
+
+
+/* responsize styling & media query */
+
+@media (min-width: 576px) {  .profile-container {
+    width: 120px;
+    /* Smaller circles on mobile */
+    height: 120px;
+}
+
+.member-name {
+    font-size: 1rem;
+}}
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {
+    .main-heading {
+        font-size: 2.2rem;
+    }
+  }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
